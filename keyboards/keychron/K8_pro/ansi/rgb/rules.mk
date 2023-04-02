@@ -1,5 +1,5 @@
 # MCU name
-MCU = STM32L432
+MCU = STM32L433
  
 # Bootloader selection
 BOOTLOADER = stm32-dfu
@@ -33,7 +33,7 @@ CUSTOM_MATRIX = lite
 SRC += /keyboards/keychron/K8_pro/matrix.c
 
 RGB_MATRIX_ENABLE = yes
-RGB_MATRIX_DRIVER = CKLED2001
+RGB_MATRIX_DRIVER = IS31FL3733
 OPENRGB_ENABLE = yes
 
 include keyboards/keychron/bluetooth/bluetooth.mk
